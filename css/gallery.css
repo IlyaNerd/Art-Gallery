@@ -1,11 +1,22 @@
+@font-face {
+    font-family: 'Perpetua';
+    src: url('/fonts/Perpetua.ttf');
+}
+
+@font-face {
+    font-family: 'Perpetua-Bold';
+    src: url('/fonts/Perpetua-Bold.ttf');
+}
+
 body {
     background: #efe2dc;
+    font-family: Perpetua, serif;
 }
 
 /* go up and go down buttons*/
 .go-up, .go-down {
     position: fixed;
-    top:50%;
+    top: 50%;
     cursor: pointer;
 }
 
@@ -33,12 +44,11 @@ body {
     cursor: pointer;
 }
 
-
 /* image buttons:hover */
 .hide {
     position: absolute;
     color: white;
-    margin: -3.5em 1%;
+    margin: -3.5em 1em;
     display: none;
 }
 
@@ -51,7 +61,7 @@ body {
     height: 30px;
     border: none;
     border-radius: 5px;
-    background: rgba(228,228,228,0.5);
+    background: rgba(228, 228, 228, 0.5);
     cursor: pointer;
 }
 
@@ -59,7 +69,6 @@ body {
     width: 15px;
     height: 15px;
 }
-
 
 /* pager */
 .btn-pager {
@@ -76,3 +85,36 @@ body {
     cursor: pointer;
 }
 
+/* footer */
+.footer {
+    background: #222222;
+    height: 250px;
+    border-top: 15px solid #82aa62;
+    color: white;
+    text-align: center;
+}
+
+.footer > h1 {
+    font-size: 40pt;
+    margin: auto;
+}
+
+.footer > h3 {
+    margin: auto;
+}
+
+.footer > h4 {
+    bottom: 0;
+}
+
+.footer > div {
+    margin: 0 auto;
+    display: block;
+}
+
+.btn-connect > img {
+    height: 2em;
+    cursor: pointer;
+    padding-left: 1em;
+    padding-right: 1em;
+}
