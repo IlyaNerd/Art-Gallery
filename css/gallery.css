@@ -15,7 +15,7 @@ body {
 }
 
 /* go up and go down buttons*/
-.scroll-bottom, .scroll-top{
+.scroll-bottom, .scroll-top {
     position: fixed;
     top: 50%;
     cursor: pointer;
@@ -95,24 +95,28 @@ body {
     border-top: 5px solid #b2a661;
     color: white;
     text-align: center;
+    position: relative;
 }
 
 .footer > h1 {
     font-size: 40pt;
-    margin: auto;
+    margin: 2% auto auto;
 }
 
 .footer > h3 {
     margin: auto;
 }
 
-.footer > h4 {
-    bottom: 0;
+div.connect {
+    bottom: 35%;
+    position: absolute;
+    width: 100%;
 }
 
-.footer > div {
-    margin: 0 auto;
-    display: block;
+div.copyright {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 .btn-connect > img {
