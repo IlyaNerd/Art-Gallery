@@ -11,6 +11,7 @@
 body {
     background: #efe2dc;
     font-family: Perpetua, serif;
+    margin: 0;
 }
 
 /* go up and go down buttons*/
@@ -32,7 +33,7 @@ body {
 
 /* images */
 .products {
-    width: 80%;
+    width: 75%;
     margin: auto;
     column-count: 3;
 }
