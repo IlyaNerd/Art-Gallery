@@ -14,18 +14,18 @@ body {
 }
 
 /* go up and go down buttons*/
-.go-up, .go-down {
+.scroll-bottom, .scroll-top{
     position: fixed;
     top: 50%;
     cursor: pointer;
 }
 
-.go-up {
+.scroll-top {
     float: left;
     left: 2%;
 }
 
-.go-down {
+.scroll-bottom {
     float: right;
     right: 2%;
 }
