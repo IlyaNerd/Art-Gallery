@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'Perpetua';
+    src: url('/fonts/Perpetua.ttf');
+}
+
+@font-face {
+    font-family: 'Perpetua-Bold';
+    src: url('/fonts/Perpetua-Bold.ttf');
+}
+
+body {
+    background: #efe2dc;
+    font-family: Perpetua, serif;
+    margin: 0;
+}
+
+/* go up and go down buttons*/
+.scroll-bottom, .scroll-top{
+    position: fixed;
+    top: 50%;
+    cursor: pointer;
+}
+
+.scroll-top {
+    float: left;
+    left: 2%;
+}
+
+.scroll-bottom {
+    float: right;
+    right: 2%;
+}
+
+/* images */
+.products {
+    width: 75%;
+    margin: auto;
+    column-count: 3;
+}
+
+.product-image > a > img {
+    width: 100%;
+    height: 25%;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* image buttons:hover */
+.hide {
+    position: absolute;
+    color: white;
+    margin: -3.5em 1em;
+    display: none;
+}
+
+.product-image:hover .hide {
+    display: block;
+}
+
+.hide > button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(228, 228, 228, 0.5);
+    cursor: pointer;
+}
+
+.hide > button > img {
+    width: 15px;
+    height: 15px;
+}
+
+/* pager */
+.btn-pager {
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.pager > table {
+    margin: auto;
+}
+
+.pager > table > tbody > tr > td {
+    cursor: pointer;
+}
+
+/* footer */
+.footer {
+    background: #222222;
+    height: 250px;
+    border-top: 15px solid #82aa62;
+    color: white;
+    text-align: center;
+}
+
+.footer > h1 {
+    font-size: 40pt;
+    margin: auto;
+}
+
+.footer > h3 {
+    margin: auto;
+}
+
+.footer > h4 {
+    bottom: 0;
+}
+
+.footer > div {
+    margin: 0 auto;
+    display: block;
+}
+
+.btn-connect > img {
+    height: 2em;
+    cursor: pointer;
+    padding-left: 1em;
+    padding-right: 1em;
+}
