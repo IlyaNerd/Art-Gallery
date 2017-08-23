@@ -14,7 +14,7 @@ body {
 
 .itemtext
 {
-	font-family:Century Gothic;
+	font-family: Century Gothic, serif;
 	font-size: 16px;
 	padding:20px;
 }
@@ -31,13 +31,13 @@ body {
 	background-color:#b9ddce;
 	color: #6b6b6b;
 	float: left;
-	margin: 50px 0px 0px 8%;
+	margin: 50px 0 0 8%;
 }
 .buy {
 	background:#b9ddce;
 	color: #2e373c;
 	float: right;
- 	font-family:Century Gothic;
+	font-family: Century Gothic, serif;
 	font-size:16px;
 	margin-right: 3%;
 	margin-top: 7%;
@@ -47,7 +47,7 @@ body {
 {
 	width: 99%;
 	height: 100%;
-	font-family: Century Gothic;
+	font-family: Century Gothic, serif;
 	font-size:24px;
 }
 .total
@@ -84,7 +84,7 @@ body {
 .summary
 {
 	float: left;
-	margin: 10px 0px 0px 8%;	
-		font-family: Century Gothic;
+	margin: 10px 0 0 8%;
+	font-family: Century Gothic, serif;
 	font-size:20px;
 }
