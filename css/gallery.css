@@ -73,6 +73,11 @@ body {
     height: 15px;
 }
 
+.like-count {
+    position: absolute;
+    color: white;
+}
+
 /* pager */
 .btn-pager {
     width: 30px;

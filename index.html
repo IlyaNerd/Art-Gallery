@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <title>Art Gallery</title>
     <link rel="stylesheet" href="css/gallery.css">
+    <script src="js/checkDB.js"></script>
+    <script src="js/createDB.js"></script>
+
+    <script src="js/getPicture.js"></script>
+
     <script src="js/ScrollTopBottom.js"></script>
 </head>
 
@@ -22,9 +27,9 @@
 <!-- gallery -->
 <div class="gallery">
     <div class="products">
-        <div class="product-image">
+        <div class="product-image" id="1">
             <a href="html/image_details0.html">
-                <img src="img/0000.jpg">
+                <img class="image-src" src="">
             </a>
             <div class="hide">
                 <span>Author</span>
@@ -32,6 +37,7 @@
                     <img src="img/icons/cart.png">
                 </button>
                 <button class="btn-like">
+                    <span class="like-count"></span>
                     <img src="img/icons/like.png">
                 </button>
                 <button class="btn-repost">
@@ -41,7 +47,7 @@
         </div>
         <div class="product-image">
             <a href="html/image_details1.html">
-                <img src="img/0001.jpg">
+                <img class="image-src" src="">
             </a>
             <div class="hide">
                 <span>Author</span>
@@ -49,6 +55,7 @@
                     <img src="img/icons/cart.png">
                 </button>
                 <button class="btn-like">
+                    <span class="like-count"></span>
                     <img src="img/icons/like.png">
                 </button>
                 <button class="btn-repost">
@@ -58,7 +65,7 @@
         </div>
         <div class="product-image">
             <a href="html/image_details2.html">
-                <img src="img/0002.jpg">
+                <img class="image-src" src="">
             </a>
             <div class="hide">
                 <span>Author</span>
@@ -66,6 +73,7 @@
                     <img src="img/icons/cart.png">
                 </button>
                 <button class="btn-like">
+                    <span class="like-count"></span>
                     <img src="img/icons/like.png">
                 </button>
                 <button class="btn-repost">
@@ -75,7 +83,7 @@
         </div>
         <div class="product-image">
             <a href="html/image_details3.html">
-                <img src="img/0003.jpg">
+                <img class="image-src" src="">
             </a>
             <div class="hide">
                 <span>Author</span>
@@ -83,6 +91,7 @@
                     <img src="img/icons/cart.png">
                 </button>
                 <button class="btn-like">
+                    <span class="like-count"></span>
                     <img src="img/icons/like.png">
                 </button>
                 <button class="btn-repost">
@@ -92,7 +101,7 @@
         </div>
         <div class="product-image">
             <a href="html/image_details4.html">
-                <img src="img/0004.jpg">
+                <img class="image-src" src="">
             </a>
             <div class="hide">
                 <span>Author</span>
@@ -100,6 +109,7 @@
                     <img src="img/icons/cart.png">
                 </button>
                 <button class="btn-like">
+                    <span class="like-count"></span>
                     <img src="img/icons/like.png">
                 </button>
                 <button class="btn-repost">
@@ -109,7 +119,7 @@
         </div>
         <div class="product-image">
             <a href="html/image_details5.html">
-                <img src="img/0005.jpg">
+                <img class="image-src" src="">
             </a>
             <div class="hide">
                 <span>Author</span>
@@ -117,6 +127,7 @@
                     <img src="img/icons/cart.png">
                 </button>
                 <button class="btn-like">
+                    <span class="like-count"></span>
                     <img src="img/icons/like.png">
                 </button>
                 <button class="btn-repost">
@@ -126,7 +137,7 @@
         </div>
         <div class="product-image">
             <a href="html/image_details6.html">
-                <img src="img/0006.jpg">
+                <img class="image-src" src="">
             </a>
             <div class="hide">
                 <span>Author</span>
@@ -134,6 +145,7 @@
                     <img src="img/icons/cart.png">
                 </button>
                 <button class="btn-like">
+                    <span class="like-count"></span>
                     <img src="img/icons/like.png">
                 </button>
                 <button class="btn-repost">
@@ -143,7 +155,7 @@
         </div>
         <div class="product-image">
             <a href="html/image_details7.html">
-                <img src="img/0007.jpg">
+                <img class="image-src" src="">
             </a>
             <div class="hide">
                 <span>Author</span>
@@ -151,6 +163,7 @@
                     <img src="img/icons/cart.png">
                 </button>
                 <button class="btn-like">
+                    <span class="like-count"></span>
                     <img src="img/icons/like.png">
                 </button>
                 <button class="btn-repost">
@@ -160,7 +173,7 @@
         </div>
         <div class="product-image">
             <a href="html/image_details8.html">
-                <img src="img/0008.jpg">
+                <img class="image-src" src="">
             </a>
             <div class="hide">
                 <span>Author</span>
@@ -168,6 +181,7 @@
                     <img src="img/icons/cart.png">
                 </button>
                 <button class="btn-like">
+                    <span class="like-count"></span>
                     <img src="img/icons/like.png">
                 </button>
                 <button class="btn-repost">
@@ -177,6 +191,7 @@
         </div>
 
     </div>
+
 
     <!-- pager -->
     <div class="pager">
