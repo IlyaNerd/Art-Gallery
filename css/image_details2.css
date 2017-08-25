@@ -1,0 +1,89 @@
+@media only screen and (max-width: 1000px) {
+    div .about_picture {
+        white-space: pre-wrap;
+        }
+        .content {
+            width: 75%;
+            margin: 10% 5% 5% 15%;
+        }
+        .container {
+            width: 90%;
+            margin: 0 0 0 80px;
+        }
+        .submenu {
+            width: 55%;
+            font-size: 15px;
+        }
+        div.return {
+            margin-bottom: 20px;
+            padding: 5px;
+            border: solid 1px #81bfb4;
+        }
+        .return a {
+            text-decoration: none;
+            color: #6b6b6b;
+        }
+        .picture img {
+            width: 80%;
+            margin-bottom: 10px;
+        }
+        .button {
+            background: #b9ddcf;
+            width: 80%;
+            height: 40px;
+            font-size: 25px;
+            margin: 15px 0;
+        }
+        .button img {
+            width: 20px;
+            height: 20px;
+            padding: 5px 0 0 40px;
+        }
+         .deliver {
+            text-align: center;
+            margin: 0 18% 0 0;
+            color: #e36464;
+            font-family: Century Gothic;
+            font-size: 15px;
+        }
+        .about_picture {
+            width: 80%;
+            text-align: center;
+        }
+        h1.product_name {
+            font-family: Century Gothic;
+            font-size: 35px;
+            font-weight: 500;
+        }
+        .author img {
+            width: 25px;
+            height: 25px;
+            padding-right: 5px;
+        }
+        .author a {
+            text-decoration: none;
+            font-family: Century Gothic;
+            color: #6b6b6b;
+        }
+        h1.price {
+            font-family: Century Gothic;
+            font-size: 30px;
+        }
+        p.drawing {
+            padding: 10px;
+            background: #b9ddcf;
+            border: 1px solid lightgrey;
+        }
+        table {
+            text-align: left;
+            font-size: 15px;
+        }
+        .hr {
+            height: 1px;
+            background-color: #666161;
+        }
+        .text {
+            clear: both;
+            color: #666161;
+        } 
+}
