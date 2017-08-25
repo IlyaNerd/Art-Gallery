@@ -79,6 +79,14 @@ function createPicturesTable() {
                 "Painting on canvas with a colored stencil", "For experienced", "y"],
             null, null);
 
+        trans.executeSql("INSERT INTO pictures " +
+            "(author_id, image_url, picture_name, price, likes, series, complexity, instock) " +
+            "values (?, ?, ?, ?, ?, ?, ?, ?)",
+            [1, "img/0009.jpg", "Painting \"Horse\"", 1129.35, 89,
+                "Painting on canvas with a colored stencil", "For experienced", "y"],
+            null, null);
+
+
 
     });
 }
