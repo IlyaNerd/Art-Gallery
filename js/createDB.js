@@ -86,8 +86,6 @@ function createPicturesTable() {
                 "Painting on canvas with a colored stencil", "For experienced", "y"],
             null, null);
 
-
-
     });
 }
 

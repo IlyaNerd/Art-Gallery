@@ -8,13 +8,7 @@ db.transaction(function (trans) {
             likes[i].innerHTML = result.rows.item(i)['likes'];
             srcs[i].setAttribute("src", result.rows.item(i)['image_url']);
         }
-
-        /*trans.executeSql("DROP TABLE gallery.pictures", [], function (tx, res) {
-            alert(res)
-        }, function (tx, err) {
-            alert(err)
-        });*/
     }, function (tx, err) {
-        alert(err.message);
+        alert("getPicture: " + err.message);
     });
 });
