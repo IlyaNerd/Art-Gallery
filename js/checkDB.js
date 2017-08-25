@@ -11,11 +11,10 @@ if (!db) {
 
 db.transaction(function (trans) {
     trans.executeSql(checkGallery, [], function (tx, response) {
-        dropPicturesTable();
-        createPicturesTable();
-        /*if(response.rows.length!==10) {
-
-        }*/
+        if(response.rows.length!==10) {
+            dropPicturesTable();
+            createPicturesTable();
+        }
     }, function (tx, error) {
         createPicturesTable();
     });
