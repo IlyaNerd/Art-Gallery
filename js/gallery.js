@@ -34,3 +34,7 @@ function dislike(id, i) {
     var func = document.getElementsByClassName("btn-like")[i];
     func.setAttribute("onclick", "like(" + id + "," + i + ")")
 }
+
+function setCookie(id) {
+    document.cookie = id;
+}

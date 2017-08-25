@@ -26,7 +26,7 @@ div.return {
     text-align: center;
     margin: 10px 0 30px 0;
     color: #e36464;
-    font-family: Century Gothic;
+    font-family: Century Gothic, serif;
     font-size: 14px;
 }
 .container {
@@ -40,7 +40,7 @@ div.return {
 }
 .author a {
     text-decoration: none;
-    font-family: Century Gothic;
+    font-family: Century Gothic, serif;
     color: #6b6b6b;
 }
 .picture {
@@ -66,13 +66,13 @@ div.return {
 }
 h1.product_name {
     padding-bottom: 10px;
-    font-family: Century Gothic;
+    font-family: Century Gothic, serif;
     font-size: 40px;
     font-weight: 500;
 }
 h1.price {
     padding: 30px 0 30px 50px;
-    font-family: Century Gothic;
+    font-family: Century Gothic, serif;
     font-size: 30px;
 }
 p.drawing {
@@ -81,7 +81,7 @@ p.drawing {
     border: 1px solid lightgrey;
 }
 table {
-    font-family: Century Gothic;
+    font-family: Century Gothic, serif;
     padding-top: 20px;
     margin-left: 20px;
 }

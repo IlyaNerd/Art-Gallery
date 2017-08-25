@@ -2,11 +2,12 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <link href="../css/image_details.css" rel="stylesheet">
-    <link href="../css/image_details2.css" rel="stylesheet">
+    <link href="css/image_details.css" rel="stylesheet">
+    <link href="css/image_details2.css" rel="stylesheet">
     <title>image_details</title>
-    <script src="/js/checkDB.js"></script>
-    <script src="/js/getPicture.js"></script>
+    <script src="js/checkDB.js"></script>
+    <script src="js/createDB.js"></script>
+    <script src="js/image_details.js"></script>
 </head>
 <body>
 <div class="content">
@@ -17,31 +18,34 @@
                     <span>Home</span>
                 </a>
                 &nbsp; / &nbsp;
-                <a href="../index.html" title="products">
+                <a href="index.html" title="products">
                     <span>Products</span>
                 </a>
                 &nbsp; / &nbsp;
-                Painting "Lake"
+                <span class="picture_name"></span>
             </div>
         </div>
         <div class="picture">
-            <img src="../img/0000.jpg">
+            <img src="" class="picture-src">
             <button class="button"> Add to Cart
-                <img src="../img/icons/cart.png" alt="" style="vertical-align:middle">
+                <img src="img/icons/cart.png" alt="" style="vertical-align:middle">
             </button>
             <p class="deliver"> Under the order. Delivery September 5</p>
         </div>
     </div>
     <div class="about_picture">
-        <h1 class="product_name">Painting "Lake"</h1>
-        <p class="author"><img src="../img/avatars/snow_white.png"><a href="../profile.html"> Snow White</a></p>
+        <h1 class="picture_name"></h1>
+        <p class="author">
+            <img src="" class="auth-ava">
+            <a href="profile.html" class="auth-name"></a>
+        </p>
         <hr>
         <h1 class="price"> Price: 45,48$</h1>
         <p class="drawing">Drawing on canvas with a stretcher</p>
         <table >
                 <tr>
                     <td class="gray" width="150">Series</td>
-                    <td>Painting on canvas with a colored stencil</td>
+                    <td class="gray-content">Painting on canvas with a colored stencil</td>
                 </tr>
                 <tr>
                     <td class="gray">Manufacture</td>
@@ -49,7 +53,7 @@
                 </tr>
                 <tr>
                     <td class="gray">Complexity</td>
-                    <td>For experienced</td>
+                    <td class="gray-content">For experienced</td>
                 </tr>
                 <tr>
                     <td class="gray">Packaging</td>

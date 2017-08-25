@@ -8,11 +8,14 @@ db.transaction(function (trans) {
         var srcs = document.getElementsByClassName("image-src");
         var authors = document.getElementsByClassName("author");
         var ids = document.getElementsByClassName("btn-like");
+        var pictures_urls = document.getElementsByClassName("picture-url");
         for(var i=0; i< likes.length; i++){
-            ids[i].setAttribute("onclick", "like(" + result.rows.item(i)['rowid'] + "," + i + ")");
+            var id = result.rows.item(i)['rowid'];
+            ids[i].setAttribute("onclick", "like(" + id + "," + i + ")");
             likes[i].innerHTML = result.rows.item(i)['likes'];
             srcs[i].setAttribute("src", result.rows.item(i)['image_url']);
             authors[i].innerHTML = result.rows.item(i)['name'];
+            pictures_urls[i].setAttribute("onclick", "setCookie(" + id + ")");
         }
     }, function (tx, err) {
         alert("getPicture: " + err.message);
