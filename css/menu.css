@@ -1,5 +1,5 @@
 body {
-    background: #efe2dc;
+
     margin: 0;
     padding: 0;
     border: 0;
@@ -15,6 +15,7 @@ body {
     padding: 0 1%;
     background: #efe2dc;
     height: 78px;
+    z-index: 1000;
 }
 
 .logo {

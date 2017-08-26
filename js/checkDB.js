@@ -38,7 +38,7 @@ db.transaction(function (trans) {
 
     trans.executeSql(checkOrders, [],
         function (tx, res) {
-            dropOrdersTable();
+            // dropOrdersTable();
             createOrders();
         },
         function (tx, err) {

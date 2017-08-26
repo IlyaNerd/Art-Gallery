@@ -134,11 +134,7 @@ function createPicturesTable() {
                 "Painting on canvas with a colored stencil", "For experienced", "y"],
             null, null);
 
-<<<<<<< HEAD
          trans.executeSql("INSERT INTO pictures " +
-=======
-        trans.executeSql("INSERT INTO pictures " +
->>>>>>> upstream/master
             "(author_id, image_url, picture_name, price, likes, series, complexity, instock) " +
             "values (?, ?, ?, ?, ?, ?, ?, ?)",
             [5, "img/0017.jpg", "Painting \"Freedom\"", 54.38, 237,
@@ -193,11 +189,7 @@ function createPicturesTable() {
             [4, "img/0024.jpg", "Painting \"Height\"", 328.49, 268,
                 "Painting on canvas with a colored stencil", "For experienced", "y"],
             null, null);
-<<<<<<< HEAD
    
-=======
-
->>>>>>> upstream/master
         trans.executeSql("INSERT INTO pictures " +
             "(author_id, image_url, picture_name, price, likes, series, complexity, instock) " +
             "values (?, ?, ?, ?, ?, ?, ?, ?)",
@@ -323,10 +315,6 @@ function createPicturesTable() {
             [1, "img/0042.jpg", "Painting \"Bridge\"", 832.87, 740,
                 "Painting on canvas with a colored stencil", "For experienced", "y"],
             null, null);
-<<<<<<< HEAD
-=======
-
->>>>>>> upstream/master
     });
 }
 
@@ -382,13 +370,5 @@ function createAuthorsTable() {
             ["Olia", "img/avatars/olia.jpg", "@snow white"],
             null, null);
 
-    });
-}
-
-function createOrders() {
-    db = openDatabase("gallery", "1.0", "DB with pictures", 2 * 1024 * 1024);
-    db.transaction(function (trans) {
-        //create db
-        trans.executeSql("CREATE TABLE orders (picture_id INTEGER)");
     });
 }
