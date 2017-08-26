@@ -34,3 +34,24 @@ function dislike(id, i) {
     var func = document.getElementsByClassName("btn-like")[i];
     func.setAttribute("onclick", "like(" + id + "," + i + ")")
 }
+
+function addToCart(id) {
+    db = openDatabase("gallery", "1.0", "DB with pictures", 2 * 1024 * 1024);
+    var contains = "SELECT * FROM orders WHERE picture_id=?";
+    var query = "INSERT INTO orders (picture_id) values (?)";
+
+    db.transaction(function (trans) {
+
+        // trans.executeSql(query, [id], null, null);
+
+        trans.executeSql(contains, [id], function (tx, result) {
+
+            if (result.rows.length === 0) {
+                trans.executeSql(query, [id], null, null);
+            }
+        }, function (tx, err) {
+            alert(err.message);
+        });
+    });
+
+}

@@ -12,10 +12,22 @@ db.transaction(function (trans) {
         var auth_ava = result.rows.item(0)['avatar_url'];
 
 
-
         document.getElementsByClassName("auth-name")[0].innerHTML = auth_name;
         document.getElementsByClassName("auth-name")[1].innerHTML = auth_name;
 
         document.getElementsByClassName("auth-ava")[0].setAttribute("src", auth_ava);
+
+        for (var i = 0; i < result.rows.length; i++) {
+            var div = document.createElement('div');
+            div.className = "min-png";
+            var url = "image_details.html?id=" + result.rows.item(i)['rowid'];
+
+            div.innerHTML = "<div class=\"min-png\">\n" +
+                "        <a href=\"" + url + "\">\n" +
+                "            <img class=\"picture-src\" src=\"" + result.rows.item(i)['image_url'] + "\">\n" +
+                "        </a>\n" +
+                "    </div>"
+            document.getElementsByClassName("pictures")[0].appendChild(div);
+        }
     }, null);
 });

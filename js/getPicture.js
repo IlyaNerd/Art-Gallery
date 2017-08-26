@@ -9,6 +9,8 @@ db.transaction(function (trans) {
         var authors = document.getElementsByClassName("author");
         var ids = document.getElementsByClassName("btn-like");
         var pictures_urls = document.getElementsByClassName("picture-url");
+        var btn_cart = document.getElementsByClassName("btn-cart");
+
         for(var i=0; i< likes.length; i++){
             var id = result.rows.item(i)['rowid'];
             var image_url = result.rows.item(i)['image_url'];
@@ -21,7 +23,7 @@ db.transaction(function (trans) {
             likes[i].innerHTML = result.rows.item(i)['likes'];
             srcs[i].setAttribute("src", image_url);
             authors[i].innerHTML = result.rows.item(i)['name'];
-            // pictures_urls[i].setAttribute("onclick", "appendId(" + id + ")");
+            btn_cart[i].setAttribute("onclick", "addToCart(" + id + ")");
         }
     }, function (tx, err) {
         alert("getPicture: " + err.message);

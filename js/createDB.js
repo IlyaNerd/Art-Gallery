@@ -372,3 +372,11 @@ function createAuthorsTable() {
 
     });
 }
+
+function createOrders() {
+    db = openDatabase("gallery", "1.0", "DB with pictures", 2 * 1024 * 1024);
+    db.transaction(function (trans) {
+        //create db
+        trans.executeSql("CREATE TABLE orders (picture_id INTEGER)");
+    });
+}
