@@ -134,11 +134,7 @@ function createPicturesTable() {
                 "Painting on canvas with a colored stencil", "For experienced", "y"],
             null, null);
 
-<<<<<<< HEAD
          trans.executeSql("INSERT INTO pictures " +
-=======
-        trans.executeSql("INSERT INTO pictures " +
->>>>>>> upstream/master
             "(author_id, image_url, picture_name, price, likes, series, complexity, instock) " +
             "values (?, ?, ?, ?, ?, ?, ?, ?)",
             [5, "img/0017.jpg", "Painting \"Freedom\"", 54.38, 237,
@@ -193,11 +189,7 @@ function createPicturesTable() {
             [4, "img/0024.jpg", "Painting \"Height\"", 328.49, 268,
                 "Painting on canvas with a colored stencil", "For experienced", "y"],
             null, null);
-<<<<<<< HEAD
-   
-=======
 
->>>>>>> upstream/master
         trans.executeSql("INSERT INTO pictures " +
             "(author_id, image_url, picture_name, price, likes, series, complexity, instock) " +
             "values (?, ?, ?, ?, ?, ?, ?, ?)",
@@ -271,7 +263,7 @@ function createPicturesTable() {
         trans.executeSql("INSERT INTO pictures " +
             "(author_id, image_url, picture_name, price, likes, series, complexity, instock) " +
             "values (?, ?, ?, ?, ?, ?, ?, ?)",
-            [1, "img/0035.jpg", "Painting \"Man\"", 699.99, 67,
+            [1, "img/0035.jpg", "Painting \"Man\"", 699.99, 511,
                 "Painting on canvas with a colored stencil", "For experienced", "y"],
             null, null);
 
@@ -285,14 +277,14 @@ function createPicturesTable() {
         trans.executeSql("INSERT INTO pictures " +
             "(author_id, image_url, picture_name, price, likes, series, complexity, instock) " +
             "values (?, ?, ?, ?, ?, ?, ?, ?)",
-            [3, "img/0037.jpg", "Painting \"Gorilla\"", 79.90, 577,
+            [3, "img/0037.jpg", "Painting \"Gorilla\"", 79.90, 88,
                 "Painting on canvas with a colored stencil", "For experienced", "y"],
             null, null);
 
         trans.executeSql("INSERT INTO pictures " +
             "(author_id, image_url, picture_name, price, likes, series, complexity, instock) " +
             "values (?, ?, ?, ?, ?, ?, ?, ?)",
-            [4, "img/0038.jpg", "Painting \"Gecko\"", 688.84, 768,
+            [4, "img/0038.jpg", "Painting \"Gecko\"", 688.84, 52,
                 "Painting on canvas with a colored stencil", "For experienced", "y"],
             null, null);
 
@@ -320,13 +312,9 @@ function createPicturesTable() {
         trans.executeSql("INSERT INTO pictures " +
             "(author_id, image_url, picture_name, price, likes, series, complexity, instock) " +
             "values (?, ?, ?, ?, ?, ?, ?, ?)",
-            [1, "img/0042.jpg", "Painting \"Bridge\"", 832.87, 740,
+            [1, "img/0042.jpg", "Painting \"Bridge\"", 832.87, 74,
                 "Painting on canvas with a colored stencil", "For experienced", "y"],
             null, null);
-<<<<<<< HEAD
-=======
-
->>>>>>> upstream/master
     });
 }
 

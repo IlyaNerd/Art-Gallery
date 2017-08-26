@@ -1,0 +1,48 @@
+
+/* footer */
+.footer {
+    background: #222222;
+    /*height: 350px;*/
+    border-top: 5px solid #b2a661;
+    color: white;
+    text-align: center;
+    position: relative;
+    padding: 0;
+}
+
+.footer > h1 {
+    font-size: 40pt;
+    margin: 2% auto auto;
+}
+
+.footer > h3 {
+    margin: auto;
+}
+
+div.connect {
+    bottom: 35%;
+    /*position: absolute;*/
+    width: 100%;
+    margin: 50px 0;
+}
+
+div.copyright {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    padding: 0;
+}
+
+div.copyright h5 {
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: 12px;
+
+}
+
+.btn-connect > img {
+    height: 2em;
+    cursor: pointer;
+    padding-left: 1em;
+    padding-right: 1em;
+}
