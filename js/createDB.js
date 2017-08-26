@@ -133,8 +133,7 @@ function createPicturesTable() {
             [4, "img/0016.jpg", "Painting \"Sunset\"", 69.14, 260,
                 "Painting on canvas with a colored stencil", "For experienced", "y"],
             null, null);
-
-        trans.executeSql("INSERT INTO pictures " +
+         trans.executeSql("INSERT INTO pictures " +
             "(author_id, image_url, picture_name, price, likes, series, complexity, instock) " +
             "values (?, ?, ?, ?, ?, ?, ?, ?)",
             [5, "img/0017.jpg", "Painting \"Freedom\"", 54.38, 237,
@@ -315,7 +314,6 @@ function createPicturesTable() {
             [1, "img/0042.jpg", "Painting \"Bridge\"", 832.87, 740,
                 "Painting on canvas with a colored stencil", "For experienced", "y"],
             null, null);
-
     });
 }
 
