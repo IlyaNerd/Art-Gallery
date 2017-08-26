@@ -1,0 +1,248 @@
+body {
+    background: #efe2dc;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    font-size: 16px;
+}
+
+.header {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0 1%;
+    background: #efe2dc;
+    height: 78px;
+}
+
+.logo {
+    float: left;
+    margin: 5px 5px 0 0;
+    display: inline-block;
+    max-width: 20%;
+}
+
+.logo > img {
+    max-width: 25%;
+}
+
+.menu {
+    overflow: hidden;
+    list-style-type: none;
+    padding: 0;
+    height: 78px;
+    margin-top: 1%;
+}
+
+.menu .menu-item {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+}
+
+.menu .menu-item > a {
+    width: 33%;
+    font-size: 1.8rem;
+    color: #2f373d;
+    vertical-align: middle;
+    text-decoration: none;
+    font-family: "Perpetua-Bold";
+    -webkit-transition: color 0.2s linear;
+    transition: color 0.2s linear;
+}
+
+.menu .menu-item > a::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: #328A32;
+    opacity: 0;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.menu .menu-item > a.top-link::after {
+    height: 4px;
+    opacity: 1;
+    -moz-transform: translateY(4px);
+    -ms-transform: translateY(4px);
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+
+}
+
+.menu a {
+    background-position: left center;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    color: #464646;
+    cursor: pointer;
+    padding: 0% 0% 0% 15%;
+    position: relative;
+    display: block;
+}
+
+.menu li:hover {
+    background: #8ea4ca;
+}
+
+.menu li:hover a {
+    color: #fff;
+}
+
+.menu li:hover a:before {
+    background: transparent;
+}
+
+.menu li:nth-child(1) a {
+    background-image: url("../img/icons/home icon.png");
+}
+
+.menu li:nth-child(2) a {
+    background-image: url("../img/icons/collection_icon.png");
+}
+
+.menu li:nth-child(3) a {
+    background-image: url("../img/icons/authors_icon.png");
+}
+
+.account-cart {
+    float: right;
+    padding: 0;
+    display: inline-block;
+    width: 22%;
+}
+
+.account-cart > div {
+    overflow: hidden;
+    display: inline-block;
+    margin: 16px 0 16px 0;
+    text-align: center;
+    padding: 0% 7% 0% 0%;
+}
+
+.account-cart > div > a {
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: #2f373d;
+    text-decoration: none;
+    font-family: "Perpetua-Bold";
+    text-align: center;
+    -webkit-transition: color 0.2s linear;
+    transition: color 0.2s linear;
+}
+
+.account-cart > div.btn-about {
+    float: right;
+}
+
+.flexslider > img {
+    width: 100%;
+}
+
+/* Текстовый блок 1*/
+
+.index-slide-text {
+    width: 38%;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.index-slide-text > div.text1 {
+    width: 100%;
+    position: relative;
+}
+
+div.text1 > span {
+    text-decoration: none;
+    font-size: 8rem;
+    color: #b2a661;
+    text-decoration: none;
+    font-family: "Perpetua-Bold";
+    text-align: center;
+    -webkit-transition: color 0.2s linear;
+    transition: color 0.2s linear;
+}
+
+.index-slide-text1 {
+    width: 38%;
+    position: absolute;
+    top: 28%;
+    left: 58%;
+    transform: translate(-50%, -50%);
+}
+
+.index-slide-text > div.text2 {
+    width: 100%;
+    position: relative;
+}
+
+div.text2 > span {
+    text-decoration: none;
+    font-size: 4rem;
+    color: #b2a661;
+    text-decoration: none;
+    font-family: "Perpetua-Bold";
+    text-align: center;
+    -webkit-transition: color 0.2s linear;
+    transition: color 0.2s linear;
+}
+
+/* Поисковая строка */
+.search {
+    width: 100%;
+    position: relative
+}
+
+.searchTerm {
+    float: left;
+    width: 100%;
+    border: 3px solid #FFFFFF;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px;
+    outline: none;
+    color: #9DBFAF;
+}
+
+.searchTerm:focus {
+    color: #1E2020;
+}
+
+.searchButton {
+    position: absolute;
+    right: -50px;
+    width: 40px;
+    height: 36px;
+    border: 1px solid #FFFFFF;
+    background: #959788;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.wrap {
+    width: 38%;
+    position: absolute;
+    top: 74%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn-account:before {
+    content: url("../img/icons/account icon.png")
+}
+
+.btn-cart-menu:before {
+    content: url("../img/icons/cart-icon.png")
+}

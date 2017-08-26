@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>Art Gallery</title>
     <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/menu.css">
     <script src="js/checkDB.js"></script>
     <script src="js/createDB.js"></script>
 
@@ -13,6 +15,47 @@
 </head>
 
 <body>
+
+<!-- Header -->
+<header class="header" style="position: fixed">
+    <!-- logo -->
+    <a href="#" class="logo"><img src="img/logo.png" alt="Art Gallery"></a>
+    <!-- Log g Cart -->
+    <div class="account-cart">
+        <div class="btn-account"><a href="#">Sign-in</a></div>
+        <div class="btn-cart-menu"><a href="#">Cart</a></div>
+        <div class="btn-about"><a href="#"><img src="img/icons/info-icon.png" alt=""></a></div>
+    </div>
+    <!-- Menu -->
+    <ul class="menu">
+        <li class="menu-item"><a href="#" class="top-link home">Home</a></li>
+        <li class="menu-item"><a href="#" class="collectionst">Collections</a></li>
+        <li class="menu-item"><a href="#" class="authors">Authors</a></li>
+    </ul>
+</header>
+<!-- Место для слайдера и поисковой строки -->
+<div class="flexslider">
+    <img src="slider/slideshow_1.jpg" alt="">
+    <div class="wrap">
+        <div class="search">
+            <input class="searchTerm" placeholder="Search paintings">
+            <button class="searchButton">
+                <i class="fa fa-search"></i>
+            </button>
+        </div>
+    </div>
+    <div class="index-slide-text">
+        <div class="text1">
+            <span>Art</span>
+        </div>
+    </div>
+    <div class="index-slide-text1">
+        <div class="text2">
+            <span>gallery</span>
+        </div>
+    </div>
+
+</div>
 
 <!-- scroll top -->
 <div class="scroll-top">

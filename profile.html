@@ -1,81 +1,99 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <link href="css/profile.css" rel="stylesheet">
-        <link href="css/profile2.css" rel="stylesheet">
-        <script src="js/checkDB.js"></script>
-        <script src="js/createDB.js"></script>
-        <script src="js/profile.js"></script>
-        <title>Profile</title>
-    </head>
-    <body>
-        <div class="submenu">
-            <div class="return">
-                <a href="" title="home">
-                    <span>Home</span>
-                </a>
-                    &nbsp; / &nbsp;
-                <a href="" title="autors">
-                    <span>Autors</span>
-                </a>
-                    &nbsp; / &nbsp;
-                <span class="auth-name">Snow White</span>
-            </div>
-        </div>
-            <p class="text"> Most popular paintings:</p>
-        <div class="profile">
-            <div class="prof">
-                <a href="">
-                    <img class="auth-ava" src="img/avatars/snow_white.png">
-                </a>
-            </div>
-            <div class="author">
-                <h2 class="auth-name">Snow White</h2>
-                <p>@SnowWhite</p>
-            </div>
-            <div class="btn-favorite">
-                <button class="button">
-                    <img src="img/icons/like.png">
-                    add to favorite
-                </button>
-            </div>
-                    <p class="block"><img src="img/icons/no_image.png">All paintings in profile</p>
-                <div class="min-png">
-                    <a href="">
-                        <img src="img/min.jpg">
-                    </a>
-                </div>
-                <div class="pictures">
-                    <a href="">
-                        <img src="img/squares.jpg">
-                    </a>
-                </div>
-                <div class="pictures">
-                    <a href="">
-                        <img src="img/women.jpg">
-                    </a>
-                </div>
-                <div class="pictures">
-                    <a href="">
-                        <img src="img/chamomile.jpg">
-                    </a>
-                </div>
-                <div class="pictures">
-                    <a href="">
-                        <img src="img/cinderella.jpeg">
-                    </a>
-                </div>
-                <div class="pictures">
-                    <a href="">
-                        <img src="img/snow_white.jpeg">
-                    </a>
-                </div>
-                <div class="pictures">
-                    <a href="">
-                        <img src="img/movie.jpg">
-                    </a>
-                </div>
-        </div>
+<head>
+    <meta charset="utf-8">
+    <link href="css/profile.css" rel="stylesheet">
+    <link href="css/profile2.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/menu.css">
+    <script src="js/checkDB.js"></script>
+    <script src="js/createDB.js"></script>
+    <script src="js/profile.js"></script>
+    <title>Profile</title>
+</head>
+<body>
+<header class="header" style="position: fixed">
+    <!-- logo -->
+    <a href="#" class="logo"><img src="img/logo.png" alt="Art Gallery"></a>
+    <!-- Log g Cart -->
+    <div class="account-cart">
+        <div class="btn-account"><a href="#">Sign-in</a></div>
+        <div class="btn-cart-menu"><a href="#">Cart</a></div>
+        <div class="btn-about"><a href="#"><img src="img/icons/info-icon.png" alt=""></a></div>
+    </div>
+    <!-- Menu -->
+    <ul class="menu">
+        <li class="menu-item"><a href="index.html" class="top-link home">Home</a></li>
+        <li class="menu-item"><a href="collections.html" class="collections">Collections</a></li>
+        <li class="menu-item"><a href="#" class="authors">Authors</a></li>
+    </ul>
+</header>
+
+<div class="submenu">
+    <div class="return">
+        <a href="" title="home">
+            <span>Home</span>
+        </a>
+        &nbsp; / &nbsp;
+        <a href="" title="autors">
+            <span>Autors</span>
+        </a>
+        &nbsp; / &nbsp;
+        <span class="auth-name">Snow White</span>
+    </div>
+</div>
+<p class="text"> Most popular paintings:</p>
+<div class="profile">
+    <div class="prof">
+        <a href="">
+            <img class="auth-ava" src="img/avatars/snow_white.png">
+        </a>
+    </div>
+    <div class="author">
+        <h2 class="auth-name">Snow White</h2>
+        <p>@SnowWhite</p>
+    </div>
+    <div class="btn-favorite">
+        <button class="button">
+            <img src="img/icons/like.png">
+            add to favorite
+        </button>
+    </div>
+    <p class="block"><img src="img/icons/no_image.png">All paintings in profile</p>
+    <div class="min-png">
+        <a href="">
+            <img src="img/min.jpg">
+        </a>
+    </div>
+    <div class="pictures">
+        <a href="">
+            <img src="img/squares.jpg">
+        </a>
+    </div>
+    <div class="pictures">
+        <a href="">
+            <img src="img/women.jpg">
+        </a>
+    </div>
+    <div class="pictures">
+        <a href="">
+            <img src="img/chamomile.jpg">
+        </a>
+    </div>
+    <div class="pictures">
+        <a href="">
+            <img src="img/cinderella.jpeg">
+        </a>
+    </div>
+    <div class="pictures">
+        <a href="">
+            <img src="img/snow_white.jpeg">
+        </a>
+    </div>
+    <div class="pictures">
+        <a href="">
+            <img src="img/movie.jpg">
+        </a>
+    </div>
+</div>
 </body>
 </html>
