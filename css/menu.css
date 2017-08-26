@@ -240,12 +240,4 @@ div.text2 > span {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-/*
-.btn-account:before {
-    content: url("../img/icons/account icon.png")
-}
-*/
 
-.btn-cart-menu:before {
-    content: url("../img/icons/cart-icon.png")
-}

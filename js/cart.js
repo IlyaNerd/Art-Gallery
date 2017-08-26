@@ -9,7 +9,7 @@ db.transaction(function (trans) {
 
             var tr = document.createElement("tr");
            var pic_name = result.rows.item(i)['picture_name'];
-           var price = result.rows.item(i)['price'];
+           var price = result.rows.item(i)['price'] + "$";
            var pic_url = result.rows.item(i)['image_url'];
            var instock1 = result.rows.item(i)['price'];
            var instock;

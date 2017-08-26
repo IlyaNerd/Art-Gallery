@@ -35,18 +35,19 @@ body {
 .cartitem {
 	background-color:#b9ddce;
 	color: #6b6b6b;
-	float: left;
 	margin: 7% 0 0 8%;
+	position: relative;
+	float: left;
 }
 .buy {
+	position: relative;
 	background:#b9ddce;
 	color: #2e373c;
-	float: right;
 	font-family: Century Gothic, serif;
 	font-size:16px;
 	margin-right: 3%;
 	margin-top: 7%;
-	
+	float: right;
 }
 .tnumber
 {
@@ -83,7 +84,7 @@ body {
 	background: #4c6d68;
 }
 .line {
-    float: left;
+    /*float: left;*/
     width: 100%;
     margin-left: 40px;
 	margin-top:40px;
@@ -91,8 +92,9 @@ body {
 }
 .summary
 {
-	float: left;
+	position: relative;
 	margin: 10px 0 0 8%;
+	margin-top: 10%;
 	font-family: Century Gothic, serif;
 	font-size:20px;
 }
