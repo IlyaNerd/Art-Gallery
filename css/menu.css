@@ -15,6 +15,7 @@ body {
     padding: 0 1%;
     background: #efe2dc;
     height: 78px;
+    z-index: 1000;
 }
 
 .logo {

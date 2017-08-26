@@ -85,6 +85,237 @@ function createPicturesTable() {
                 "Painting on canvas with a colored stencil", "For experienced", "y"],
             null, null);
 
+        trans.executeSql("INSERT INTO pictures " +
+            "(author_id, image_url, picture_name, price, likes, series, complexity, instock) " +
+            "values (?, ?, ?, ?, ?, ?, ?, ?)",
+            [7, "img/0010.jpg", "Painting \"Paints\"", 50.100, 23,
+                "Painting on canvas with a colored stencil", "For experienced", "y"],
+            null, null);
+
+        trans.executeSql("INSERT INTO pictures " +
+            "(author_id, image_url, picture_name, price, likes, series, complexity, instock) " +
+            "values (?, ?, ?, ?, ?, ?, ?, ?)",
+            [7, "img/0011.jpg", "Painting \"Lady\"", 869.39, 38,
+                "Painting on canvas with a colored stencil", "For experienced", "y"],
+            null, null);
+
+        trans.executeSql("INSERT INTO pictures " +
+            "(author_id, image_url, picture_name, price, likes, series, complexity, instock) " +
+            "values (?, ?, ?, ?, ?, ?, ?, ?)",
+            [1, "img/0012.jpg", "Painting \"Deer\"", 48.85, 25,
+                "Painting on canvas with a colored stencil", "For experienced", "y"],
+            null, null);
+
+        trans.executeSql("INSERT INTO pictures " +
+            "(author_id, image_url, picture_name, price, likes, series, complexity, instock) " +
+            "values (?, ?, ?, ?, ?, ?, ?, ?)",
+            [2, "img/0013.jpg", "Painting \"Nature\"", 540.80, 23,
+                "Painting on canvas with a colored stencil", "For experienced", "y"],
+            null, null);
+
+        trans.executeSql("INSERT INTO pictures " +
+            "(author_id, image_url, picture_name, price, likes, series, complexity, instock) " +
+            "values (?, ?, ?, ?, ?, ?, ?, ?)",
+            [7, "img/0014.jpg", "Painting \"Food\"", 967.49, 389,
+                "Painting on canvas with a colored stencil", "For experienced", "y"],
+            null, null);
+
+        trans.executeSql("INSERT INTO pictures " +
+            "(author_id, image_url, picture_name, price, likes, series, complexity, instock) " +
+            "values (?, ?, ?, ?, ?, ?, ?, ?)",
+            [3, "img/0015.jpg", "Painting \"Milk shake\"", 547.48, 378,
+                "Painting on canvas with a colored stencil", "For experienced", "y"],
+            null, null);
+
+        trans.executeSql("INSERT INTO pictures " +
+            "(author_id, image_url, picture_name, price, likes, series, complexity, instock) " +
+            "values (?, ?, ?, ?, ?, ?, ?, ?)",
+            [4, "img/0016.jpg", "Painting \"Sunset\"", 69.14, 260,
+                "Painting on canvas with a colored stencil", "For experienced", "y"],
+            null, null);
+
+        trans.executeSql("INSERT INTO pictures " +
+            "(author_id, image_url, picture_name, price, likes, series, complexity, instock) " +
+            "values (?, ?, ?, ?, ?, ?, ?, ?)",
+            [5, "img/0017.jpg", "Painting \"Freedom\"", 54.38, 237,
+                "Painting on canvas with a colored stencil", "For experienced", "y"],
+            null, null);
+
+        trans.executeSql("INSERT INTO pictures " +
+            "(author_id, image_url, picture_name, price, likes, series, complexity, instock) " +
+            "values (?, ?, ?, ?, ?, ?, ?, ?)",
+            [6, "img/0018.jpg", "Painting \"Mountains\"", 480.87, 380,
+                "Painting on canvas with a colored stencil", "For experienced", "y"],
+            null, null);
+
+        trans.executeSql("INSERT INTO pictures " +
+            "(author_id, image_url, picture_name, price, likes, series, complexity, instock) " +
+            "values (?, ?, ?, ?, ?, ?, ?, ?)",
+            [7, "img/0019.jpg", "Painting \"Snow\"", 479.24, 146,
+                "Painting on canvas with a colored stencil", "For experienced", "y"],
+            null, null);
+
+        trans.executeSql("INSERT INTO pictures " +
+            "(author_id, image_url, picture_name, price, likes, series, complexity, instock) " +
+            "values (?, ?, ?, ?, ?, ?, ?, ?)",
+            [7, "img/0020.jpg", "Painting \"Japan\"", 540.80, 23,
+                "Painting on canvas with a colored stencil", "For experienced", "y"],
+            null, null);
+
+        trans.executeSql("INSERT INTO pictures " +
+            "(author_id, image_url, picture_name, price, likes, series, complexity, instock) " +
+            "values (?, ?, ?, ?, ?, ?, ?, ?)",
+            [1, "img/0021.jpg", "Painting \"Lemon\"", 887.80, 147,
+                "Painting on canvas with a colored stencil", "For experienced", "y"],
+            null, null);
+
+        trans.executeSql("INSERT INTO pictures " +
+            "(author_id, image_url, picture_name, price, likes, series, complexity, instock) " +
+            "values (?, ?, ?, ?, ?, ?, ?, ?)",
+            [2, "img/0022.jpg", "Painting \"Macarons\"", 2837.87, 1838,
+                "Painting on canvas with a colored stencil", "For experienced", "y"],
+            null, null);
+
+        trans.executeSql("INSERT INTO pictures " +
+            "(author_id, image_url, picture_name, price, likes, series, complexity, instock) " +
+            "values (?, ?, ?, ?, ?, ?, ?, ?)",
+            [3, "img/0023.jpg", "Painting \"Poppy\"", 887.80, 147,
+                "Painting on canvas with a colored stencil", "For experienced", "y"],
+            null, null);
+
+        trans.executeSql("INSERT INTO pictures " +
+            "(author_id, image_url, picture_name, price, likes, series, complexity, instock) " +
+            "values (?, ?, ?, ?, ?, ?, ?, ?)",
+            [4, "img/0024.jpg", "Painting \"Height\"", 328.49, 268,
+                "Painting on canvas with a colored stencil", "For experienced", "y"],
+            null, null);
+
+        trans.executeSql("INSERT INTO pictures " +
+            "(author_id, image_url, picture_name, price, likes, series, complexity, instock) " +
+            "values (?, ?, ?, ?, ?, ?, ?, ?)",
+            [5, "img/0025.jpg", "Painting \"Bull\"", 579.38, 395,
+                "Painting on canvas with a colored stencil", "For experienced", "y"],
+            null, null);
+
+        trans.executeSql("INSERT INTO pictures " +
+            "(author_id, image_url, picture_name, price, likes, series, complexity, instock) " +
+            "values (?, ?, ?, ?, ?, ?, ?, ?)",
+            [6, "img/0026.jpg", "Painting \"Wind turbine\"", 455.49, 485,
+                "Painting on canvas with a colored stencil", "For experienced", "y"],
+            null, null);
+
+        trans.executeSql("INSERT INTO pictures " +
+            "(author_id, image_url, picture_name, price, likes, series, complexity, instock) " +
+            "values (?, ?, ?, ?, ?, ?, ?, ?)",
+            [7, "img/0027.jpg", "Painting \"Wall\"", 487.49, 357,
+                "Painting on canvas with a colored stencil", "For experienced", "y"],
+            null, null);
+
+        trans.executeSql("INSERT INTO pictures " +
+            "(author_id, image_url, picture_name, price, likes, series, complexity, instock) " +
+            "values (?, ?, ?, ?, ?, ?, ?, ?)",
+            [1, "img/0028.jpg", "Painting \"Star park\"", 135.89, 147,
+                "Painting on canvas with a colored stencil", "For experienced", "y"],
+            null, null);
+
+        trans.executeSql("INSERT INTO pictures " +
+            "(author_id, image_url, picture_name, price, likes, series, complexity, instock) " +
+            "values (?, ?, ?, ?, ?, ?, ?, ?)",
+            [2, "img/0029.jpg", "Painting \"Beach sunset\"", 246.79, 485,
+                "Painting on canvas with a colored stencil", "For experienced", "y"],
+            null, null);
+
+        trans.executeSql("INSERT INTO pictures " +
+            "(author_id, image_url, picture_name, price, likes, series, complexity, instock) " +
+            "values (?, ?, ?, ?, ?, ?, ?, ?)",
+            [3, "img/0030.jpg", "Painting \"Wind turbine\"", 146.79, 357,
+                "Painting on canvas with a colored stencil", "For experienced", "y"],
+            null, null);
+
+        trans.executeSql("INSERT INTO pictures " +
+            "(author_id, image_url, picture_name, price, likes, series, complexity, instock) " +
+            "values (?, ?, ?, ?, ?, ?, ?, ?)",
+            [4, "img/0031.jpg", "Painting \"Tiger\"", 179.79, 56,
+                "Painting on canvas with a colored stencil", "For experienced", "y"],
+            null, null);
+
+        trans.executeSql("INSERT INTO pictures " +
+            "(author_id, image_url, picture_name, price, likes, series, complexity, instock) " +
+            "values (?, ?, ?, ?, ?, ?, ?, ?)",
+            [5, "img/0032.jpg", "Painting \"Tram\"", 589.73, 58,
+                "Painting on canvas with a colored stencil", "For experienced", "y"],
+            null, null);
+
+        trans.executeSql("INSERT INTO pictures " +
+            "(author_id, image_url, picture_name, price, likes, series, complexity, instock) " +
+            "values (?, ?, ?, ?, ?, ?, ?, ?)",
+            [6, "img/0033.jpg", "Painting \"Waterfall\"", 245.73, 157,
+                "Painting on canvas with a colored stencil", "For experienced", "y"],
+            null, null);
+
+        trans.executeSql("INSERT INTO pictures " +
+            "(author_id, image_url, picture_name, price, likes, series, complexity, instock) " +
+            "values (?, ?, ?, ?, ?, ?, ?, ?)",
+            [7, "img/0034.jpg", "Painting \"Forest\"", 859.19, 179,
+                "Painting on canvas with a colored stencil", "For experienced", "y"],
+            null, null);
+
+        trans.executeSql("INSERT INTO pictures " +
+            "(author_id, image_url, picture_name, price, likes, series, complexity, instock) " +
+            "values (?, ?, ?, ?, ?, ?, ?, ?)",
+            [1, "img/0035.jpg", "Painting \"Man\"", 699.99, 67,
+                "Painting on canvas with a colored stencil", "For experienced", "y"],
+            null, null);
+
+        trans.executeSql("INSERT INTO pictures " +
+            "(author_id, image_url, picture_name, price, likes, series, complexity, instock) " +
+            "values (?, ?, ?, ?, ?, ?, ?, ?)",
+            [2, "img/0036.jpg", "Painting \"Cat\"", 978.68, 86,
+                "Painting on canvas with a colored stencil", "For experienced", "y"],
+            null, null);
+
+        trans.executeSql("INSERT INTO pictures " +
+            "(author_id, image_url, picture_name, price, likes, series, complexity, instock) " +
+            "values (?, ?, ?, ?, ?, ?, ?, ?)",
+            [3, "img/0037.jpg", "Painting \"Gorilla\"", 79.90, 577,
+                "Painting on canvas with a colored stencil", "For experienced", "y"],
+            null, null);
+
+        trans.executeSql("INSERT INTO pictures " +
+            "(author_id, image_url, picture_name, price, likes, series, complexity, instock) " +
+            "values (?, ?, ?, ?, ?, ?, ?, ?)",
+            [4, "img/0038.jpg", "Painting \"Gecko\"", 688.84, 768,
+                "Painting on canvas with a colored stencil", "For experienced", "y"],
+            null, null);
+
+        trans.executeSql("INSERT INTO pictures " +
+            "(author_id, image_url, picture_name, price, likes, series, complexity, instock) " +
+            "values (?, ?, ?, ?, ?, ?, ?, ?)",
+            [5, "img/0039.jpg", "Painting \"Model\"", 755.88, 74,
+                "Painting on canvas with a colored stencil", "For experienced", "y"],
+            null, null);
+
+        trans.executeSql("INSERT INTO pictures " +
+            "(author_id, image_url, picture_name, price, likes, series, complexity, instock) " +
+            "values (?, ?, ?, ?, ?, ?, ?, ?)",
+            [6, "img/0040.jpg", "Painting \"Turtle\"", 98.35, 99,
+                "Painting on canvas with a colored stencil", "For experienced", "y"],
+            null, null);
+
+        trans.executeSql("INSERT INTO pictures " +
+            "(author_id, image_url, picture_name, price, likes, series, complexity, instock) " +
+            "values (?, ?, ?, ?, ?, ?, ?, ?)",
+            [7, "img/0041.jpg", "Painting \"Seascape\"", 467.53, 103,
+                "Painting on canvas with a colored stencil", "For experienced", "y"],
+            null, null);
+
+        trans.executeSql("INSERT INTO pictures " +
+            "(author_id, image_url, picture_name, price, likes, series, complexity, instock) " +
+            "values (?, ?, ?, ?, ?, ?, ?, ?)",
+            [1, "img/0042.jpg", "Painting \"Bridge\"", 832.87, 740,
+                "Painting on canvas with a colored stencil", "For experienced", "y"],
+            null, null);
+
     });
 }
 
