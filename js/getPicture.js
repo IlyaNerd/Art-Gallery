@@ -11,11 +11,17 @@ db.transaction(function (trans) {
         var pictures_urls = document.getElementsByClassName("picture-url");
         for(var i=0; i< likes.length; i++){
             var id = result.rows.item(i)['rowid'];
+            var image_url = result.rows.item(i)['image_url'];
+
+            var pic_href = pictures_urls[i].getAttribute("href");
+            pic_href = pic_href + "?id=" + id;
+            pictures_urls[i].setAttribute("href", pic_href);
+
             ids[i].setAttribute("onclick", "like(" + id + "," + i + ")");
             likes[i].innerHTML = result.rows.item(i)['likes'];
-            srcs[i].setAttribute("src", result.rows.item(i)['image_url']);
+            srcs[i].setAttribute("src", image_url);
             authors[i].innerHTML = result.rows.item(i)['name'];
-            pictures_urls[i].setAttribute("onclick", "setCookie(" + id + ")");
+            // pictures_urls[i].setAttribute("onclick", "appendId(" + id + ")");
         }
     }, function (tx, err) {
         alert("getPicture: " + err.message);

@@ -1,4 +1,5 @@
-var id = document.cookie;
+var regex = /^.*id=/;
+var id = window.location.href.replace(regex, "");
 
 db = openDatabase("gallery", "1.0", "DB with pictures", 2 * 1024 * 1024);
 var query = "SELECT pic.rowid,* FROM pictures pic " +
