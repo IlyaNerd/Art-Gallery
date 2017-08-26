@@ -2,58 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5b21d3a-211c-4f2a-a021-52d4ddd4fec4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/footer.css" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/0000.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/0001.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/0002.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/0003.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/0004.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/0005.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/0006.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/0007.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/0008.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/0009.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/0010.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/0011.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/0012.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/0013.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/0014.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/0015.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/0016.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/0017.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/0018.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/0019.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/0020.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/0021.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/0022.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/0023.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/0024.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/0025.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/0026.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/0027.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/0028.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/0029.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/0030.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/0031.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/0032.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/0033.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/0034.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/0035.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/0036.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/0037.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/0038.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/0039.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/0040.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/0041.jpg" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/0042.jpg" afterPath="$PROJECT_DIR$/css/footer.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/createDB.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/gallery.css" afterPath="$PROJECT_DIR$/css/gallery.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/image_details.css" afterPath="$PROJECT_DIR$/css/image_details.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/profile.css" afterPath="$PROJECT_DIR$/css/profile.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image_details.html" afterPath="$PROJECT_DIR$/image_details.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/menu.css" afterPath="$PROJECT_DIR$/css/menu.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/createDB.js" afterPath="$PROJECT_DIR$/js/createDB.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profile.html" afterPath="$PROJECT_DIR$/profile.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -70,8 +23,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="286" column="30" lean-forward="false" selection-start-line="286" selection-start-column="30" selection-end-line="286" selection-end-column="30" />
+            <state relative-caret-position="266">
+              <caret line="26" column="55" lean-forward="true" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -87,7 +40,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="footer.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/footer.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
@@ -97,21 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cart.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cart.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="31" column="19" lean-forward="false" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="menu.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="menu.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/menu.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="228">
+              <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -138,16 +81,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cart.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/cart.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="26" column="20" lean-forward="false" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="profile.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/profile.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -161,11 +94,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cart.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/cart.js">
+      <file leaf-file-name="createDB.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/createDB.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="511">
-              <caret line="36" column="20" lean-forward="false" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+            <state relative-caret-position="19">
+              <caret line="264" column="63" lean-forward="false" selection-start-line="264" selection-start-column="63" selection-end-line="264" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -191,6 +124,8 @@
       <find>wra</find>
       <find>after</find>
       <find>like</find>
+      <find>037</find>
+      <find>37</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -219,15 +154,15 @@
         <option value="$PROJECT_DIR$/js/getPicture.js" />
         <option value="$PROJECT_DIR$/js/gallery.js" />
         <option value="$PROJECT_DIR$/js/checkDB.js" />
-        <option value="$PROJECT_DIR$/js/createDB.js" />
-        <option value="$PROJECT_DIR$/css/menu.css" />
         <option value="$PROJECT_DIR$/cart.html" />
         <option value="$PROJECT_DIR$/js/cart.js" />
         <option value="$PROJECT_DIR$/css/cart.css" />
         <option value="$PROJECT_DIR$/profile.html" />
         <option value="$PROJECT_DIR$/css/gallery.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/footer.css" />
+        <option value="$PROJECT_DIR$/js/createDB.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/menu.css" />
       </list>
     </option>
   </component>
@@ -428,7 +363,7 @@
       <workItem from="1503722848866" duration="2765000" />
       <workItem from="1503727712306" duration="218000" />
       <workItem from="1503728215907" duration="399000" />
-      <workItem from="1503729295938" duration="19587000" />
+      <workItem from="1503729295938" duration="21268000" />
     </task>
     <task id="LOCAL-00001" summary="fixed footer">
       <created>1503517438962</created>
@@ -542,23 +477,31 @@
       <option name="project" value="LOCAL" />
       <updated>1503750573777</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="merge">
+      <created>1503752288898</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1503752288898</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52769000" />
+    <option name="totallyTimeSpent" value="54450000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-12" width="1920" height="1092" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25635594" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25635594" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.50211865" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32850778" sideWeight="0.49788135" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850778" sideWeight="0.49788135" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -629,7 +572,8 @@
     <MESSAGE value="added cart support on main page" />
     <MESSAGE value="added cart support" />
     <MESSAGE value="minor fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="minor fixes" />
+    <MESSAGE value="merge" />
+    <option name="LAST_COMMIT_MESSAGE" value="merge" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -638,43 +582,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/gallery.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4158">
-          <caret line="189" column="21" lean-forward="false" selection-start-line="189" selection-start-column="21" selection-end-line="189" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/gallery.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4158">
-          <caret line="189" column="21" lean-forward="true" selection-start-line="189" selection-start-column="21" selection-end-line="189" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/gallery.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/details/image_details_2.css" />
-    <entry file="file://$PROJECT_DIR$/css/details/image_details_3.css" />
     <entry file="file://$PROJECT_DIR$/css/details/image_details.css" />
     <entry file="file://$PROJECT_DIR$/js/ScrollTopBottom.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -757,14 +664,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="316" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/createDB.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6004">
-          <caret line="316" column="24" lean-forward="false" selection-start-line="316" selection-start-column="24" selection-end-line="316" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -865,14 +764,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/menu.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/image_details.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -889,14 +780,6 @@
             <marker date="1503751102929" expanded="true" signature="1519:1570" ph="{...}" />
             <marker date="1503751102929" expanded="true" signature="1577:1620" ph="{...}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="286" column="30" lean-forward="false" selection-start-line="286" selection-start-column="30" selection-end-line="286" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -918,10 +801,69 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/img/0025.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/0036.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/footer.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/0037.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/0038.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/createDB.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="264" column="63" lean-forward="false" selection-start-line="264" selection-start-column="63" selection-end-line="264" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/0011.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/0007.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/0004.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="26" column="55" lean-forward="true" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/menu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding />
         </state>
       </provider>
