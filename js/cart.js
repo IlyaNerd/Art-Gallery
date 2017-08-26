@@ -30,8 +30,7 @@ db.transaction(function (trans) {
                "                <div>" + instock + "</div>\n" +
                "                <br>\n" +
                "                <div class=itemprice>" + price + "</div>\n" +
-               "            </td>"
-
+               "            </td>";
 
            document.getElementsByClassName("insert")[0].appendChild(tr);
        }
@@ -39,3 +38,11 @@ db.transaction(function (trans) {
         alert(err.message);
     });
 });
+
+var prices = document.getElementsByClassName("itemprice");
+var total_price = 0;
+for(var i=0; i<prices.length; i++){
+    total_price= total_price + parseInt(prices[i].replace("$"));
+}
+
+document.getElementsByClassName("totalprice")[0].innerHTML = total_price + "$";
