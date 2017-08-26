@@ -33,18 +33,17 @@ db.transaction(function (trans) {
             createAuthorsTable();
         },
         function (tx, error) {
-        createAuthorsTable();
-    });
+            createAuthorsTable();
+        });
 
     trans.executeSql(checkOrders, [],
         function (tx, res) {
             dropOrdersTable();
             createOrders();
-    },
+        },
         function (tx, err) {
             createOrders();
         });
-
 });
 
 function dropPicturesTable() {
