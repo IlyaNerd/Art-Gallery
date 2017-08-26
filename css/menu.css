@@ -33,7 +33,7 @@ body {
     list-style-type: none;
     padding: 0;
     height: 78px;
-    margin-top: 1%;
+    margin-top:1%;
 }
 
 .menu .menu-item {
@@ -234,7 +234,7 @@ div.text2 > span {
 .wrap {
     width: 38%;
     position: absolute;
-    top: 74%;
+    top: 82%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
