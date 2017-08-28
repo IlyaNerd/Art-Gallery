@@ -39,7 +39,7 @@ function createPicturesTable() {
         trans.executeSql("INSERT INTO pictures " +
             "(author_id, image_url, picture_name, price, likes, series, complexity, instock) " +
             "values (?, ?, ?, ?, ?, ?, ?, ?)",
-            [6, "img/0003.jpg", "Painting \"Ice cream\"", 1045.48, 1024,
+            [6, "img/0003.jpg", "Painting \"Ice cream\"", 1045.48, 924,
                 "Painting on canvas with a colored stencil", "For experienced", "y"],
             null, null);
 
@@ -172,7 +172,7 @@ function createPicturesTable() {
         trans.executeSql("INSERT INTO pictures " +
             "(author_id, image_url, picture_name, price, likes, series, complexity, instock) " +
             "values (?, ?, ?, ?, ?, ?, ?, ?)",
-            [2, "img/0022.jpg", "Painting \"Macarons\"", 2837.87, 1838,
+            [2, "img/0022.jpg", "Painting \"Macarons\"", 2837.87, 838,
                 "Painting on canvas with a colored stencil", "For experienced", "y"],
             null, null);
 
